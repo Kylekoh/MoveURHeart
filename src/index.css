@@ -5,57 +5,323 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+ 
 #main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
 }
+
 
 /*
   Header Component
 */
 .nav-container {
-  width: 90%;
-  height: 5rem;
-  background-color: dodgerblue;
-  border-bottom: 1px solid #ccc;
+  width: 100%;
+  height: 90px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.88);
+  border-bottom: 0.5px solid rgba(0,0,0,0.2);
+  position: relative;
+}
+
+.nav-wrapper {
+  max-width: 1400px;
+}
+
+
+
+.nav-left {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 9rem;
+  margin-bottom: 13px;
+  align-items: center;
+}
+
+.nav-left span:nth-child(1) {
+  font-size: 2.5rem;
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.1rem;
+  color: #FEC32D;
+  
+}
+.nav-left span:nth-child(2) {
+  font-size: 1.2rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #032F5C;
+}
+.nav-right {
+  width: 65%;
 }
 
 .nav-wrapper {
   width: 100%;
   height: 3rem;
   padding: 0;
-  background: goldenrod;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   align-content: center;
   list-style: none;
-  
+}
+
+.nav-wrapper li:nth-child(4){
+  margin-right: 150px;
 }
 
 .nav-item {
-  width: 25%;
+  width: 15%;
   line-height: 3rem;
   align-items: center;
   justify-content: center;
   text-align:  center;
-  border: 0.5px solid grey;
   font-size: 1.25rem;
   font-family: 'Open Sans', sans-serif;
+  font-weight: regular;
 }
 
 .nav-item:hover{
-  
+  border-bottom: 1px solid #FEC32D;
+  color: #FEC32D;
+  font-weight: bold;
 }
-
-
 
 /*
   Main Component
 */
+.main-container {
+  padding-top: 95px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.main-introduce {
+  max-width: 1440px;
+  height: 15rem;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 50px;
+}
+
+.introduce-image-container {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.introduce-image {
+  display: inline-block;
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
+  background-image: url("./components/image/main_profile.png");
+  background-position: center;
+  background-size: cover;
+}
+.introduce {
+  width: 70%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+}
+
+/*
+  Our Service
+*/
+.main-ourservice {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.ourservice-title {
+  width: 100%;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-align: center;
+  color: #404050;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.service-list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.service-item {
+  display: flex;
+  min-width: 280px;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+}
+
+.service-item span {
+  font-size: 1.2rem;
+  font-weight: regular;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.2em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.service-item p {
+  max-width: 220px;
+}
+
+.service-image-1 {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  background-image: url("./components/image/service_image1.png");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 15px;
+}
+
+.service-image-2 {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  background-image: url("./components/image/service_image2.png");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 15px;
+}
+
+.service-image-3 {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  background-image: url("./components/image/service_image3.png");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 15px;
+}
+/*
+  Partner
+*/
+
+.main-partner{
+  width: 100%;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-align: center;
+  color: #404050;
+  text-transform: uppercase;
+}
+
+.partner-list {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(4, 5fr);
+  grid-gap: 1rem;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+}
+
+.partner-list li {
+  min-height: 100px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;  
+}
+
+.partner-item-1 {
+  background-image: url('./components/image/seoul-culture.jpg');
+}
+
+.partner-item-2 {
+  background-image: url('./components/image/seoul-culture.jpg');
+}
+
+.partner-item-3 {
+  background-image: url('./components/image/seoul-culture.jpg');
+}
+
+.partner-item-4 {
+  background-image: url('./components/image/seoul-culture.jpg');
+}
+
+.partner-item-5 {
+  background-image: url('./components/image/seoul-culture.jpg');
+}
+
+.partner-item-6 {
+  background-image: url('./components/image/seoul-culture.jpg');
+}
+
+.partner-item-7 {
+  background-image: url('./components/image/seoul-culture.jpg');
+}
+
+.partner-item-8 {
+  background-image: url('./components/image/seoul-culture.jpg');
+}
+
+
+/*
+  FAQ
+*/
+
+.main-faq{
+  width: 100%;
+  height: 300px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-align: center;
+  color: #404050;
+  text-transform: uppercase;
+  border-bottom: 0.3px solid grey;
+}
+
+.main-contact{
+  width: 100%;
+  height: 300px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-align: center;
+  color: #404050;
+  border-bottom: 0.3px solid grey;
+  padding-bottom: 10px;
+}
+
+.contact-container {
+  list-style: none;
+}
+
 /*
   Footer Component
 */
