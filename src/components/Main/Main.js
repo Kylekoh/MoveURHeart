@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Contact from './Contact';
-import FAQ from './FAQ';
+import MainService from './MainService';
 import Partner from './Partner';
 import OurService from './OurService';
 
@@ -31,8 +31,8 @@ class Main extends Component {
     특히 우리의 신체와 움직임에 담긴 마음을 발견하고 건강하게 표현하는 데 도움이 될 것입니다</span>
                     </div>
                     <OurService/>
+                    <MainService/>
                     <Partner/>
-                    <FAQ/>
                     <Contact/>
                 </main>
             </Fragment>
