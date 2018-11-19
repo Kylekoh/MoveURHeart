@@ -2,24 +2,20 @@ import React, { Component } from 'react'
 import Slide from './Slide'
 import LeftArrow from './LeftArrow'
 import RightArrow from './RightArrow'
-import junior0 from '../image/junior0.png';
-import junior1 from '../image/junior1.png';
-import junior2 from '../image/junior2.png';
-import junior3 from '../image/junior3.png';
-import junior4 from '../image/junior4.png';
+import senior1 from '../image/senior1.png';
+import senior2 from '../image/senior2.png';
+import senior3 from '../image/senior3.png';
 
-export default class Slider extends Component {
+
+export default class SliderSenior extends Component {
   constructor(props) {
     super(props)
 
     this.state = {
       images: [
-        junior0,
-        junior1,
-        junior2,
-        junior3,
-        junior4,
-
+        senior1,
+        senior2,
+        senior3
       ],
       currentIndex: 0,
       translateValue: 0
@@ -27,7 +23,12 @@ export default class Slider extends Component {
   }
 
   goToPrevSlide = () => {
-
+    if(this.state.currentIndex >= 1) {
+      this.setState(prevState => ({
+        currentIndex: prevState.currentIndex - 1,
+        translateValue: prevState.translateValue + (this.slideWidth())
+      }));
+    }
   }
 
   goToNextSlide = () => {
@@ -52,7 +53,8 @@ export default class Slider extends Component {
      return document.querySelector('.slide').clientWidth
   }
 
-  render() {
+  render(props) {
+
     return (
       <div className="slider">
 

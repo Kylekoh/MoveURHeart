@@ -3,7 +3,7 @@ import React from 'react';
 const LeftArrow = (props) => {
   return (
     <div className="leftArrow" onClick={props.goToPrevSlide}>
-     <i class="fas fa-angle-left fa-2x"></i>
+     <i className="fas fa-angle-left fa-2x" aria-hidden="true"></i>
     </div>
   );
 }

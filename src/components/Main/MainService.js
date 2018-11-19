@@ -1,7 +1,15 @@
 import React, { Component } from 'react';
-import Slider from './Slider';
+import SliderJunior from './SliderJunior';
+import SliderGeneral from './SliderGeneral';
+import SliderSenior from './SliderSenior';
 
 class MainService extends Component {
+    state = {
+        junior: false,
+        general: false,
+        senior: false
+    }
+
     render() {      
         return (
             <section className="main-service-container">
@@ -25,7 +33,7 @@ class MainService extends Component {
     그에 맞는 올바른 정서,신체의 균형과 표현을 돕습니다.</p>
                         </div>
                     </div>
-                    <Slider/>
+                    <SliderJunior/>
                 </div>
                 <div className="main-service-wrapper">
                     <div className="main-service-desc">
@@ -44,7 +52,26 @@ class MainService extends Component {
     그에 맞는 올바른 정서,신체의 균형과 표현을 돕습니다.</p>
                         </div>
                     </div>
-                    <Slider/>
+                    <SliderGeneral />
+                </div>
+                <div className="main-service-wrapper">
+                    <div className="main-service-desc">
+                        <div className="service-target">
+                            <h2>교육 대상</h2>
+                            <p>노인</p>
+                        </div>
+                        <div className="service-content">
+                            <h2>교육 내용</h2>
+                            <p>무브유어하트는 이 시기의 아동 및 청소년들의 심리와 신체를 이해하고
+    그에 맞는 올바른 정서,신체의 균형과 표현을 돕습니다.</p>
+                        </div>
+                        <div className="service-program">
+                            <h2>교육 프로그램</h2>
+                            <p>무브유어하트는 이 시기의 아동 및 청소년들의 심리와 신체를 이해하고
+    그에 맞는 올바른 정서,신체의 균형과 표현을 돕습니다.</p>
+                        </div>
+                    </div>
+                    <SliderSenior />
                 </div>
              </section>
         );
