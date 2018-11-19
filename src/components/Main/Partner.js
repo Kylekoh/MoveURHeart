@@ -15,7 +15,6 @@ const Partner = () => {
                 <li className="partner-item-6"></li>
                 <li className="partner-item-7"></li>
                 <li className="partner-item-8"></li>
-
             </ul>
         </Fragment>
     );

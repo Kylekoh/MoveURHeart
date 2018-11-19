@@ -4,7 +4,7 @@ class Footer extends Component {
     render() {
         return (
             <footer className="footer-container">
-                Footer area
+                <span>2018 MOVE YOUR HEART. ALL RIGHTS RESERVED.</span>
             </footer>
         );
     }

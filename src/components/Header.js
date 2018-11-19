@@ -12,10 +12,11 @@ class Header extends Component {
                     </div>
                     <div className="nav-right">
                         <ul className="nav-wrapper">    
-                            <li className="nav-item">About</li>
+                            <li className="nav-item">About Us</li>
+                            <li className="nav-item">What We Do</li>
+                            <li className="nav-item">Service</li>
                             <li className="nav-item">Partner</li>
                             <li className="nav-item">Contact</li>
-                            <li className="nav-item">오시는길</li>
                         </ul>
                     </div>
                 </div>
