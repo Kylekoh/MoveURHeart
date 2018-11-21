@@ -9,21 +9,30 @@ const OurService = () => {
             <ul className="service-list">
                 <li className="service-item">
                     <div className="service-image-1"></div>
-                    <span>표현예술</span>
-                    <p>
-무브유어하트 예술심리치유센터는 다양한 심리적 문제 해결 혹은 더 나은 자신을 만나고자 하는 분들을 위한 심리치유 서비스를 제공합니다. 특히 우리의 신체와 움직임에 담긴 마음을 발견하고 건강하게 표현하는 데 도움이 될 것입니다</p>
+                    <div className="service-wrapper">
+                        <span>표현예술</span>
+                        <p>
+    무브유어하트 예술심리치유센터는 다양한 심리적 문제 해결 혹은 더 나은 자신을 만나고자 하는 분들을 위한 심리치유 서비스를 제공합니다. 특히 우리의 신체와 움직임에 담긴 마음을 발견하고 건강하게 표현하는 데 도움이 될 것입니다
+                        </p>
+                    </div>
                 </li>
                 <li className="service-item">
                     <div className="service-image-2"></div>
-                    <span>무용동작</span>
-                    <p>
-무브유어하트 예술심리치유센터는 다양한 심리적 문제 해결 혹은 더 나은 자신을 만나고자 하는 분들을 위한 심리치유 서비스를 제공합니다. 특히 우리의 신체와 움직임에 담긴 마음을 발견하고 건강하게 표현하는 데 도움이 될 것입니다</p>
+                    <div className="service-wrapper">
+                        <span>무용동작</span>
+                        <p>
+    무브유어하트 예술심리치유센터는 다양한 심리적 문제 해결 혹은 더 나은 자신을 만나고자 하는 분들을 위한 심리치유 서비스를 제공합니다. 특히 우리의 신체와 움직임에 담긴 마음을 발견하고 건강하게 표현하는 데 도움이 될 것입니다
+                        </p>
+                    </div>
                 </li>
                 <li className="service-item">
                     <div className="service-image-3"></div>
-                    <span>무용동작</span>
-                    <p>
-무브유어하트 예술심리치유센터는 다양한 심리적 문제 해결 혹은 더 나은 자신을 만나고자 하는 분들을 위한 심리치유 서비스를 제공합니다. 특히 우리의 신체와 움직임에 담긴 마음을 발견하고 건강하게 표현하는 데 도움이 될 것입니다</p>
+                    <div className="service-wrapper">
+                        <span>무용동작</span>
+                        <p>
+    무브유어하트 예술심리치유센터는 다양한 심리적 문제 해결 혹은 더 나은 자신을 만나고자 하는 분들을 위한 심리치유 서비스를 제공합니다. 특히 우리의 신체와 움직임에 담긴 마음을 발견하고 건강하게 표현하는 데 도움이 될 것입니다
+                        </p>
+                    </div>
                 </li>                
             </ul>
         </section>
