@@ -5,17 +5,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
- 
-#main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  margin: 0 auto;
-  position: relative;
-}
 
+html {
+  scroll-behavior: smooth;
+}
 
 /*
   Header Component
@@ -75,7 +68,10 @@ body {
   align-content: center;
   list-style: none;
 }
-
+.nav-wrapper li a {
+  text-decoration: none;
+  color: gray;
+}
 .nav-wrapper li:nth-child(5){
   margin-right: 150px;
 }
@@ -92,23 +88,25 @@ body {
 }
 
 .nav-item:hover{
-  border-bottom: 1px solid #FEC32D;
+  border-bottom: 2px solid #FEC32D;
   color: #FEC32D;
-  font-weight: bold;
+}
+
+.nav-item a.current{ 
+  color: #FEC32D;
 }
 
 /*
   Main Component
 */
-.main-image {
-  background-image: url("./components/image/light.jpg");
+#main-image {
+  background-image: url("./components/image/pastel.jpg");
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 700px;  
   background-color: rgba(0,0,0,1);
-  filter: url(#blue-tint);
-  color: white;
+  color: #032F5C;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -125,14 +123,19 @@ body {
   font-size: 1.5rem;
 }
 
-
-.main-container {
+#main-container {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 30px;
+  background: rgba(203,203,203,0.1);
+} 
+
+.main-container-wrapper {
+  max-width: 1440px;
+  display: inline-block;
 }
+
 .main-title {
   width: 100%;
   font-family: 'Oswald', sans-serif;
@@ -142,29 +145,34 @@ body {
   text-align: center;
   color: #404050;
   text-transform: uppercase;
-  margin-bottom: 30px;  
+  margin-top: 8rem;
+  margin-bottom: 5rem;  
 }
 
 .main-introduce {
-  max-width: 1440px;
-  height: 15rem;
-  border: 1px solid gray;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-items: center;
   margin-bottom: 50px;
+  padding-bottom: 50px;
+  padding-left: 5rem;
+  padding-right: 2rem;
 }
 
 .introduce-image-container {
-  width: 30%;
+  margin: 0 auto;
+  width: 100%;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  align-content: center;
+}
+
+.introduce-image-container span{
+  padding-left: 5rem;
+  padding-right: 8rem;
 }
 
 .introduce-image {
-  display: inline-block;
+  width: 30%;
   width: 13rem;
   height: 13rem;
   border-radius: 50%;
@@ -181,11 +189,10 @@ body {
 /*
   Our Service
 */
-.main-ourservice {
+#main-ourservice {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-bottom: 50px;
 }
 
 .ourservice-title {
@@ -197,7 +204,8 @@ body {
   text-align: center;
   color: #404050;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
 }
 
 .service-list {
@@ -209,7 +217,7 @@ body {
 }
 .service-item {
   display: flex;
-  min-width: 280px;
+  min-width: 350px;
   flex-direction: column;
   justify-content: flex-start;
   text-align: center;
@@ -230,8 +238,8 @@ body {
 }
 
 .service-image-1 {
-  width: 12rem;
-  height: 12rem;
+  width: 15rem;
+  height: 15rem;
   border-radius: 8%;
   background-image: url("./components/image/service_image1.png");
   background-position: center;
@@ -240,8 +248,8 @@ body {
 }
 
 .service-image-2 {
-  width: 12rem;
-  height: 12rem;
+  width: 15rem;
+  height: 15rem;
   border-radius: 8%;
   background-image: url("./components/image/service_image2.png");
   background-position: center;
@@ -250,92 +258,36 @@ body {
 }
 
 .service-image-3 {
-  width: 12rem;
-  height: 12rem;
+  width: 15rem;
+  height: 15rem;
   border-radius: 8%;
   background-image: url("./components/image/service_image3.png");
   background-position: center;
   background-size: cover;
   margin-bottom: 15px;
 }
-/*
-  Partner
-*/
-
-.main-partner{
-  width: 100%;
-  font-family: 'Oswald', sans-serif;
-  font-size: 2.2rem;
-  font-weight: bold;
-  letter-spacing: 0.2em;
-  text-align: center;
-  color: #404050;
-  text-transform: uppercase;
-}
-
-.partner-list {
-  width: 90%;
-  display: grid;
-  grid-template-columns: repeat(4, 5fr);
-  grid-gap: 1rem;
-  list-style: none;
-  align-items: center;
-  padding: 0;
-  margin-bottom: 70px;
-}
-
-.partner-list li {
-  min-height: 90px;
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;  
-}
-
-.partner-item-1 {
-  background-image: url('./components/image/seoul-culture.jpg');
-}
-
-.partner-item-2 {
-  background-image: url('./components/image/korea-university.gif');
-}
-
-.partner-item-3 {
-  background-image: url('./components/image/seoul-culture.jpg');
-}
-
-.partner-item-4 {
-  background-image: url('./components/image/seoul-culture.jpg');
-}
-
-.partner-item-5 {
-  background-image: url('./components/image/seoul-culture.jpg');
-}
-
-.partner-item-6 {
-  background-image: url('./components/image/seoul-culture.jpg');
-}
-
-.partner-item-7 {
-  background-image: url('./components/image/seoul-culture.jpg');
-}
-
-.partner-item-8 {
-  background-image: url('./components/image/seoul-culture.jpg');
-}
-
 
 /*
   Main Service
 */
-.main-service-container {
+#main-service-section {
   width: 100%;
+  background: rgba(203,203,203,0.1);
+}
+
+.main-service-container {
+  max-width: 1440px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
 }
 
 .main-service-title {
-  width: 100%;
+  width: 90%;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
   font-family: 'Oswald', sans-serif;
   font-size: 2.2rem;
   font-weight: bold;
@@ -343,8 +295,6 @@ body {
   text-align: center;
   color: #404050;
   text-transform: uppercase;
-  border-bottom: 0.3px solid grey;
-  margin-bottom: 30px;
 }
 
 .main-service-wrapper {
@@ -352,14 +302,11 @@ body {
   height: 100%;
   display: flex;
   flex-direction: row;
-  
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  border-bottom: 1px solid rgba(203,203,203,0.7);
+  margin-bottom: 5rem;
 }
 
 .main-service-desc {
-  width: 35%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   padding-left: 2rem;
@@ -368,10 +315,20 @@ body {
 .main-service-desc div {
   width: 90%;
 }
+.service-target p {
+  padding-left: 2.2rem;
+}
 
 .service-target h2 {
   padding-bottom: 4px;
-  border-bottom: 0.2px solid rgba(0,0,0,0.8);
+  font-family: 'Open Sans', sans-serif;
+  color: #032F5C;
+  font-size: 1.4rem;
+  border-radius: 10%;
+  padding: 0.7rem;
+  border: 1px solid rgba(203,203,203,0.4);
+  background-image: url("./components/image/pastel.jpg");
+  text-align: center;
 }
 
 .service-content h2 {
@@ -443,23 +400,25 @@ body {
   background-color: rgba(255,255,255,0.9);
 }
 
-
 /*
-  contact
+  Partner
 */
-
-.main-contact{
+#partner-container {
   width: 100%;
-  background-color: rgba(203,203,203,0.4);
-  min-height: 300px;
 }
 
-.main-contact-wrapper {
-  width: 80%;
-  margin: 0 auto;
+.partner-container-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
 }
 
-.contact-title {
+.partner-title{
   font-family: 'Oswald', sans-serif;
   font-size: 2.2rem;
   font-weight: bold;
@@ -467,32 +426,134 @@ body {
   text-align: center;
   color: #404050;
   text-transform: uppercase;
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
+
+.partner-list {
+  display: grid;
+  grid-template-columns: repeat(4, 5fr);
+  grid-gap: 1rem;
+  list-style: none;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 0;
+  margin-bottom: 5rem;
+}
+
+.partner-list li {
+  height: 6rem;
+  width: 18rem;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;  
+}
+
+.partner-item-1 {
+  background-image: url('./components/image/gs-caltex.gif');
+}
+
+.partner-item-2 {
+  background-image: url('./components/image/good-neigh.jpg');
+}
+
+.partner-item-3 {
+  background-image: url('./components/image/seoul-culture.jpg');
+}
+
+.partner-item-4 {
+  background-image: url('./components/image/gangnam.gif');
+}
+
+.partner-item-5 {
+  background-image: url('./components/image/korea-university.png');
+}
+
+.partner-item-6 {
+  background-image: url('./components/image/kyunghee.jpg');
+}
+
+.partner-item-7 {
+  background-image: url('./components/image/sunchun.gif');
+}
+
+.partner-item-8 {
+  background-image: url('./components/image/noname.png');
+}
+
+/*
+  footer
+*/
+
+.footer-container {
+  display: flex;
+  width: 100%;
+  min-height: 250px;
+  background-color: #324c5f;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  color: rgba(0,0,0,0.6);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.main-contact-wrapper {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .contact-wrapper {
   display: flex;
+  flex-direction: column;
+}
+
+.contact-wrapper ul {
+  display: flex;
   flex-direction: row;
-}
-
-.contact-container {
-  list-style: none;
-  width: 50%;
-  min-height: 200px;
-  border-right: 1px solid rgba(203,203,203,0.4);
-}
-
-.contact-container ul {
+  justify-content: center;
+  align-items: center;
   list-style: none;
 }
 
-.contact-container ul li {
-  font-size: 1.5rem;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: regular;
+.contact-wrapper p {
+  margin: 0;
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
-.cotact-sns {
-  display: ;
+.contact {
+  margin: 0;
+  padding-left: 0;
+  margin-bottom: 0.3rem;
+}
+
+.contact-sns {
+  padding-left: 0;
+  margin: 0;
+}
+
+.contact li {
+  padding-right: 1rem;
+  font-size: 1.1rem;
+}
+
+.contact li i {
+  font-size: 1.3rem;
+  padding-right: 0.3rem;
+}
+
+.contact-sns li i{
+  font-size: 3rem;
+  padding-right: 1rem;
+}
+.contact-wrapper span {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: grey;
 }
 
 .fa-instagram {
@@ -509,37 +570,4 @@ body {
 
 .fa-linkedin {
   color: #0085AE;
-}
-
-.contact-form-container {
-  width: 50%;
-  padding-left: 3rem;
-}
-
-.contact-form-container form{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.contact-form-container form input {
-  width: 70%;
-  min-height: 2rem; 
-  margin-bottom: 20px;
-}
-
-/*
-  Footer Component
-*/
-.footer-container {
-  display: flex;
-  width: 100%;
-  min-height: 60px;
-  background-color: #324c5f;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.9rem;
-  color: white;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
 }

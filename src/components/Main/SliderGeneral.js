@@ -4,8 +4,10 @@ import LeftArrow from './LeftArrow'
 import RightArrow from './RightArrow'
 import adult1 from '../image/adult1.png';
 import adult2 from '../image/adult2.png';
-import adult3 from '../image/adult3.png';
-import adult4 from '../image/adult4.png';
+import adult3 from '../image/adult3.jpeg';
+import adult4 from '../image/adult4.jpeg';
+import adult5 from '../image/adult5.jpeg';
+import adult6 from '../image/adult6.jpeg';
 
 export default class SliderGeneral extends Component {
   constructor(props) {
@@ -16,7 +18,9 @@ export default class SliderGeneral extends Component {
         adult1,
         adult2,
         adult3,
-        adult4
+        adult4,
+        adult5,
+        adult6
       ],
       currentIndex: 0,
       translateValue: 0

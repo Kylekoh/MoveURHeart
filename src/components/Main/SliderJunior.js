@@ -2,11 +2,14 @@ import React, { Component } from 'react'
 import Slide from './Slide'
 import LeftArrow from './LeftArrow'
 import RightArrow from './RightArrow'
-import junior0 from '../image/junior0.png';
-import junior1 from '../image/junior1.png';
-import junior2 from '../image/junior2.png';
-import junior3 from '../image/junior3.png';
-import junior4 from '../image/junior4.png';
+import junior1 from '../image/junior1.jpeg';
+import junior2 from '../image/junior2.jpeg';
+import junior3 from '../image/junior3.jpeg';
+import junior4 from '../image/junior4.jpeg';
+import junior5 from '../image/junior5.jpeg';
+import junior6 from '../image/junior6.jpeg';
+import junior7 from '../image/junior7.jpeg';
+import junior8 from '../image/junior8.jpeg';
 
 export default class SliderJunior extends Component {
   constructor(props) {
@@ -14,11 +17,14 @@ export default class SliderJunior extends Component {
 
     this.state = {
       images: [
-        junior0,
         junior1,
         junior2,
         junior3,
         junior4,
+        junior5,
+        junior6,
+        junior7,
+        junior8,
 
       ],
       currentIndex: 0,
