@@ -11,7 +11,7 @@ class Footer extends Component {
                             <li><i className="fas fa-mobile-alt"></i> 010-3086-9311</li>
                             <li><i className="far fa-envelope"></i> 6647show@naver.com</li>
                         </ul>
-                        <p>무브유어허트 : 대표 최영석</p>
+                        <p>무브유어하트 : 대표 최영석</p>
                     </div>
                     <div className="contact-sns-wrapper">
                         <ul className="contact-sns">

@@ -596,6 +596,10 @@ html {
 }
 
 @media only screen and (max-width: 600px) {
+  .service-item {
+    width: 90%;
+  }
+
   .ourservice-title {
      font-size: 1.5rem;
   }
@@ -833,8 +837,12 @@ html {
      font-size: 1.5rem;
   }
 
+  .main-service-desc {
+    width: 100%;
+  }
+
   .service-target h2 {
-    width: 70%;
+    width: 80%;
     font-size: 0.8rem;
     margin-bottom: 2rem;
   }
