@@ -10,28 +10,34 @@ const OurService = () => {
                 <li className="service-item">
                     <div className="service-image-1"></div>
                     <div className="service-wrapper">
-                        <span>표현예술</span>
-                        <p>
-    무브유어하트 예술심리치유센터는 다양한 심리적 문제 해결 혹은 더 나은 자신을 만나고자 하는 분들을 위한 심리치유 서비스를 제공합니다. 특히 우리의 신체와 움직임에 담긴 마음을 발견하고 건강하게 표현하는 데 도움이 될 것입니다
-                        </p>
+                        <span>움직임 중심의 심리치료</span>
+                        <ul>
+                            <li>- 자존감 회복</li>
+                            <li>- 대인관계 갈등 해소</li>
+                            <li>- 긍정적인 자기 발견</li>
+                            <li>- 억압된 감정 조절하기</li>
+                        </ul>
                     </div>
                 </li>
                 <li className="service-item">
                     <div className="service-image-2"></div>
                     <div className="service-wrapper">
-                        <span>무용동작</span>
-                        <p>
-    무브유어하트 예술심리치유센터는 다양한 심리적 문제 해결 혹은 더 나은 자신을 만나고자 하는 분들을 위한 심리치유 서비스를 제공합니다. 특히 우리의 신체와 움직임에 담긴 마음을 발견하고 건강하게 표현하는 데 도움이 될 것입니다
-                        </p>
+                        <span>다양한 예술매체를 이용한 프로그램</span>
+                        <ul>
+                            <li>- 무용, 미술 등 예술매체의 통합적 사용</li>
+                            <li>- 건강한 커뮤니케이션을 돕는 <strong>동작심리워크샵</strong></li>
+                            <li>- 취향에 맞는 다양한 예술 / 심리 <strong>원데이 클래스</strong></li>
+                        </ul>
                     </div>
                 </li>
                 <li className="service-item">
                     <div className="service-image-3"></div>
                     <div className="service-wrapper">
-                        <span>무용동작</span>
-                        <p>
-    무브유어하트 예술심리치유센터는 다양한 심리적 문제 해결 혹은 더 나은 자신을 만나고자 하는 분들을 위한 심리치유 서비스를 제공합니다. 특히 우리의 신체와 움직임에 담긴 마음을 발견하고 건강하게 표현하는 데 도움이 될 것입니다
-                        </p>
+                        <span>1:1 개인 코칭 및 상담</span>
+                        <ul>
+                            <li> - 자존감, 대인 관계 심리 상담</li>
+                            <li> - 내적 성장을 돕는 1:1 개인 코칭</li>
+                        </ul>
                     </div>
                 </li>                
             </ul>
