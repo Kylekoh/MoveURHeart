@@ -6,8 +6,11 @@ class Header extends Component {
             <header className="nav-container">
                 <nav className="nav-container-wrapper">
                     <div className="nav-left">
-                        <span>Move Your Heart</span>
-                        <span>무브유어하트 예술심리치유센터</span>
+                        <div className="nav-title-wrapper">
+                            <span>Move Your Heart</span>
+                            <span>무브유어하트 예술심리치유센터</span>
+                        </div>
+                        <div className="nav-menu-bar"><i class="fas fa-bars"></i></div>
                     </div>
                     <div className="nav-right">
                         <ul className="nav-wrapper">
@@ -17,8 +20,8 @@ class Header extends Component {
                             <li className="nav-item"><a href="#main-service-section">Service</a></li>
                             <li className="nav-item"><a href="#partner-container">Partner</a></li>
                         </ul>
-                        <div className="nav-menu-bar"><i class="fas fa-bars"></i></div>
                     </div>
+                    
                 </nav>
             </header>
         );
