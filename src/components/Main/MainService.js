@@ -53,7 +53,7 @@ class MainService extends Component {
                                     <h2>프로그램 내용</h2>
                                     <ul>
                                         <li>기업 조직역랑 강화 워크샵</li>
-                                        <li>예술 / 심리를 통한 힐링 원데이 클래스</li>
+                                        <li>예술 / 심리를 통한  힐링 원데이 클래스</li>
                                         <li>기업 및 교직원 강의</li>
                                         <li>개인 상담 / 치료</li>
                                     </ul>
