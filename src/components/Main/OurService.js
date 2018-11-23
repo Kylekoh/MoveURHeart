@@ -11,7 +11,7 @@ const OurService = () => {
                     <div className="service-image-1"></div>
                     <div className="service-wrapper">
                         <span>움직임 중심의 심리치료</span>
-                        <ul>
+                        <ul className="service-content">
                             <li>- 자존감 회복</li>
                             <li>- 대인관계 갈등 해소</li>
                             <li>- 긍정적인 자기 발견</li>

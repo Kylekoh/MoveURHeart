@@ -61,7 +61,7 @@ class MainService extends Component {
                                 <div className="service-program">
                                     <h2>주요 대상</h2>
                                     <ul>
-                                        <li>직원들의 건강한 소통과 성장에 관심있는 기업, 단체</li>
+                                        <li>직원의 건강한 소통과 성장에 관심있는 기업, 단체</li>
                                         <li>예술 매체를 통한 마음의 치유가 필요한 개인</li>
                                     </ul>
                                 </div>

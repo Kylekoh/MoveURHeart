@@ -144,7 +144,7 @@ html {
     width: 250px;
     height: 280px;
     top: -90px;
-    background: beige;
+    background: #C7F2E8;
     align-self: flex-end;
     z-index: 80;
     transition: right 2s, width 2s;
@@ -374,36 +374,40 @@ html {
   }
 
   .main-image-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    margin-bottom: 0.6rem;
   }  
   
   .main-image-sub {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
   }
 
   .main-title {
     font-size: 1.5rem;
+    margin-bottom: 2rem;
   }
 
   .main-introduce {
-    padding-left: 2rem;
+    padding-left: 0;
+  }
+
+  .introduce-image-container {
+    flex-direction: column;
   }
 
   .introduce-image {
     width: 6rem;
     height: 6rem;
-  }
-  
-  .introduce {
-    font-size: 0.9rem;
+    margin-bottom: 1rem;
   }
 
   .introduce-image-container span{
-    padding-left: 1.5rem;
-    padding-right: 1.4rem;
-  }  
+    width: 80%;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 0.9rem;
+  }
 }
-
 
 /*
   Our Service
@@ -603,6 +607,14 @@ html {
   .ourservice-title {
      font-size: 1.5rem;
   }
+
+  .service-content {
+    display: grid;
+    grid-template-areas:
+            "a b"
+            "c d";
+    grid-column-gap: 1.8rem;
+  }
 }
 
 /*
@@ -612,6 +624,7 @@ html {
 #main-service-section {
   width: 100%;
   background: rgba(203,203,203,0.1);
+  padding-bottom: 6rem;
 }
 
 .main-service-container {
@@ -815,10 +828,12 @@ html {
 
   .service-content ul li {
     font-size: 0.85rem;
+    margin-bottom: 0.3rem;
   }
 
   .service-program ul li {
     font-size: 0.85rem;
+    margin-bottom: 0.3rem;
   }
 
   .slider {
@@ -843,15 +858,20 @@ html {
 
   .service-target h2 {
     width: 80%;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin-bottom: 2rem;
   }
 
   .service-content-wrapper {
     flex-direction: column;
   }
+
+  .service-program ul li:nth-child(1){
+    font-size: 0.82rem;
+  }
+
   .slider {
-    width: 80%;
+    width: 90%;
     height: 200px;
   }
 
@@ -862,6 +882,8 @@ html {
 */
 #partner-container {
   width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
 }
 
 .partner-container-wrapper {
@@ -987,7 +1009,7 @@ html {
 .footer-container {
   display: flex;
   width: 100%;
-  min-height: 250px;
+  min-height: 350px;
   background-color: #324c5f;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2rem;
@@ -1114,5 +1136,9 @@ html {
 
   .contact li i {
     font-size: 0.9rem;
+  }
+
+  .contact-sns-wrapper p {
+    font-size: 0.85rem;
   }
 }
