@@ -8,7 +8,7 @@ class Main extends Component {
     render() {
         return (
             <main>
-                <section id="main-image">
+                <section id="main-image" alt="main image">
                     <div className="main-image-title">
                         Movement Psychotherapy?
                     </div>
@@ -24,7 +24,7 @@ class Main extends Component {
                         </div>
                         <div className="main-introduce">
                             <div className="introduce-image-container">
-                                <div className="introduce-image">
+                                <div className="introduce-image" alt="introduce image">
                                 </div>
                                 <span className="introduce">무브유어하트 예술심리치유센터는 다양한 심리적 문제 해결
         혹은 더 나은 자신을 만나고자 하는 분들을 위한 심리치유 서비스를 제공합니다.<br/>

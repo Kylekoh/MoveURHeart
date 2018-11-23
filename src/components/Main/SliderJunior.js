@@ -75,7 +75,7 @@ export default class SliderJunior extends Component {
           }}>
             {
               this.state.images.map((image, i) => (
-                <Slide key={i} image={image} />
+                <Slide key={i} image={image} alt="junior picture"/>
               ))
             }
         </div>

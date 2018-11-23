@@ -145,6 +145,7 @@ html {
     height: 257px;
     top: -90px;
     background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
     align-self: flex-end;
     z-index: 80;
     transition: right 2s, width 2s;
@@ -785,7 +786,7 @@ html {
 
   .service-content-wrapper {
     display: flex;
-    margin-bottom: 1rem;
+    /* margin-bottom: 3rem; */
   }
 
   .service-content {
@@ -821,7 +822,7 @@ html {
   }
 
   .main-service-wrapper {
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
   }
 
   .main-service-desc {
@@ -865,7 +866,7 @@ html {
 
 @media only screen and (max-width: 600px) {
   .main-service-title {
-     font-size: 1.5rem;
+    font-size: 1.5rem;
   }
 
   .main-service-desc {

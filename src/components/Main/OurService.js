@@ -8,7 +8,7 @@ const OurService = () => {
             </div>
             <ul className="service-list">
                 <li className="service-item">
-                    <div className="service-image-1"></div>
+                    <div className="service-image-1" alt="움직임 중심 사진"></div>
                     <div className="service-wrapper">
                         <span>움직임 중심의 심리치료</span>
                         <ul className="service-items">
@@ -20,7 +20,7 @@ const OurService = () => {
                     </div>
                 </li>
                 <li className="service-item">
-                    <div className="service-image-2"></div>
+                    <div className="service-image-2" alt="예술매체 사진"></div>
                     <div className="service-wrapper">
                         <span>다양한 예술매체를 이용한 프로그램</span>
                         <ul>
@@ -31,7 +31,7 @@ const OurService = () => {
                     </div>
                 </li>
                 <li className="service-item">
-                    <div className="service-image-3"></div>
+                    <div className="service-image-3" alt="코칭 및 상담 사진"></div>
                     <div className="service-wrapper">
                         <span>1:1 개인 코칭 및 상담</span>
                         <ul>
