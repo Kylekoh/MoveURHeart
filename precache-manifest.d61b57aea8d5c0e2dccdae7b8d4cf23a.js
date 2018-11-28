@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/MoveURHeart/static/media/adult2.93e55a21.png"
   },
   {
-    "revision": "9264a88c48157da911a0",
-    "url": "/MoveURHeart/static/css/main.ba3c4ebf.chunk.css"
+    "revision": "58dc08d22d3b9749fa7c",
+    "url": "/MoveURHeart/static/css/main.0aa026d1.chunk.css"
   },
   {
     "revision": "c9db303edcd18bb418bb",
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/MoveURHeart/static/media/adult1.0bb070e3.png"
   },
   {
-    "revision": "9264a88c48157da911a0",
-    "url": "/MoveURHeart/static/js/main.9264a88c.chunk.js"
+    "revision": "58dc08d22d3b9749fa7c",
+    "url": "/MoveURHeart/static/js/main.58dc08d2.chunk.js"
   },
   {
     "revision": "5e7044b0411dd7ad1a49d13e96c00f2e",
@@ -70,6 +70,10 @@ self.__precacheManifest = [
   {
     "revision": "785fd4fdc628cd986a267b129acf375f",
     "url": "/MoveURHeart/static/media/adult6.785fd4fd.jpeg"
+  },
+  {
+    "revision": "9a19a137c54fa502046cc3acb3a0ba4b",
+    "url": "/MoveURHeart/static/media/kakao.9a19a137.png"
   },
   {
     "revision": "9f2937409953c790c51d4abbcb7e3efd",
@@ -100,7 +104,7 @@ self.__precacheManifest = [
     "url": "/MoveURHeart/static/media/main_profile.29b22820.png"
   },
   {
-    "revision": "ce19412cb71d9921731742f9b3f42f3b",
+    "revision": "21254ba8df711a77b9bc2f675d1e7e65",
     "url": "/MoveURHeart/index.html"
   }
 ];
