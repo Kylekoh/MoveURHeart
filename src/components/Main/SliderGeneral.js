@@ -72,7 +72,7 @@ export default class SliderGeneral extends Component {
           }}>
             {
               this.state.images.map((image, i) => (
-                <Slide key={i} image={image} />
+                <Slide key={i} image={image} alt="일반인 활동 사진"/>
               ))
             }
         </div>
