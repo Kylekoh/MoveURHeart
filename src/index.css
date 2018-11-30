@@ -26,6 +26,25 @@ html {
   align-content: center;
   justify-content: center;
   align-items: center;
+  transition: 0.5s ease-in;
+}
+
+.colored {
+  background-color: #032F5C;
+  opacity: 0.9;
+  min-height: 70px;
+  transition: 0.5s ease-in;
+}
+
+.colored-span {
+  transition: 0.5s ease-in !important;
+  color: white !important; 
+}
+
+.colored-li {
+  transition: 0.2s ease-in !important;
+  color: #404050;
+  font-weight: 400 !important;
 }
 
 .nav-container-wrapper {
@@ -96,12 +115,13 @@ html {
   text-decoration: none;
   color: #404050;
   padding-bottom: 0.5rem;
+  transition: color 0.2s ease-in;
 }
 
 .nav-item a:hover{
   border-bottom: 3px solid #FEC32D;
   color: #FEC32D;
-  transition: color 0.2s ease;
+  transition: all 0.2s ease-out;
 }
 
 .nav-menu-bar {
@@ -165,7 +185,7 @@ html {
     color: #032F5C;
     transition: color 10s ease;
     text-align: center;
-    border-bottom: 0.6px solid rgba(0,0,0,0.2);
+    /* border-bottom: 0.6px solid rgba(0,0,0,0.2); */
   }
 
   .nav-wrapper li:nth-child(1) {
@@ -238,6 +258,7 @@ html {
   background-image: url("./components/image/pastel.jpg");
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   width: 100%;
   min-height: 650px;  
   background-color: rgba(0,0,0,1);
