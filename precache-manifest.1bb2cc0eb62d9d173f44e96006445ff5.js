@@ -104,7 +104,7 @@ self.__precacheManifest = [
     "url": "/MoveURHeart/static/media/main_profile.29b22820.png"
   },
   {
-    "revision": "67c7890b14ac03e2df09ee0be2542209",
+    "revision": "2f9acc7b2bc51137bfb8f7ef0d8d9a1f",
     "url": "/MoveURHeart/index.html"
   }
 ];
