@@ -72,12 +72,12 @@ self.__precacheManifest = [
     "url": "/MoveURHeart/static/media/adult6.785fd4fd.jpeg"
   },
   {
-    "revision": "9a19a137c54fa502046cc3acb3a0ba4b",
-    "url": "/MoveURHeart/static/media/kakao.9a19a137.png"
-  },
-  {
     "revision": "9f2937409953c790c51d4abbcb7e3efd",
     "url": "/MoveURHeart/static/media/pastel.9f293740.jpg"
+  },
+  {
+    "revision": "9a19a137c54fa502046cc3acb3a0ba4b",
+    "url": "/MoveURHeart/static/media/kakao.9a19a137.png"
   },
   {
     "revision": "47854bf8c52f3b1013e1a3682d26d872",
@@ -104,7 +104,7 @@ self.__precacheManifest = [
     "url": "/MoveURHeart/static/media/main_profile.29b22820.png"
   },
   {
-    "revision": "6c118b89ab00fe5123f314c6bfb40ecb",
+    "revision": "df68597084ec4c3d1b5dfdb58fcd2d2d",
     "url": "/MoveURHeart/index.html"
   }
 ];
