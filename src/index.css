@@ -1,3 +1,8 @@
+html, body {
+  height:100vh; /* fix IE11 */
+  min-height:100%; /* fix IE11 */  
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -260,7 +265,6 @@ html {
   display: -ms-flexbox;
   display: -o-flex;
   display: flex;
-  -ms-flex-direction: column;
   flex-direction: column;
   background-image: url("./components/image/pastel.jpg");
   background-position: center;
@@ -271,8 +275,6 @@ html {
   background-color: rgba(0,0,0,1);
   color: #032F5C;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
