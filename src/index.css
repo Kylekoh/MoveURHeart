@@ -255,6 +255,15 @@ html {
   Main Component
 */
 #main-image {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -o-flex;
+  display: flex;
+
+  -ms-flex-direction: column;
+  flex-direction: column;
+
   background-image: url("./components/image/pastel.jpg");
   background-position: center;
   background-size: cover;
@@ -263,8 +272,8 @@ html {
   min-height: 650px;  
   background-color: rgba(0,0,0,1);
   color: #032F5C;
-  display: flex;
-  flex-direction: column;
+  
+  
   align-items: center;
   justify-content: center;
 }
@@ -949,8 +958,11 @@ html {
 }
 
 .partner-list {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 5fr 5fr 5fr 5fr;
   grid-template-columns: repeat(4, 5fr);
+  -ms-grid-gap: 1.3rem;
   grid-gap: 1.3rem;
   list-style: none;
   align-items: center;
@@ -1060,9 +1072,14 @@ html {
 }
 
 .main-contact-wrapper {
-  width: 80%;
   display: flex;
+  display: -ms-flexbox;
+  
+  -ms-flex-direction: row;
   flex-direction: row;
+  width: 80%;
+  
+  
   align-content: center;
   justify-content: space-between;
 }
