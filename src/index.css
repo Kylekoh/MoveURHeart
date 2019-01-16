@@ -260,10 +260,8 @@ html {
   display: -ms-flexbox;
   display: -o-flex;
   display: flex;
-
   -ms-flex-direction: column;
   flex-direction: column;
-
   background-image: url("./components/image/pastel.jpg");
   background-position: center;
   background-size: cover;
@@ -272,9 +270,10 @@ html {
   min-height: 650px;  
   background-color: rgba(0,0,0,1);
   color: #032F5C;
-  
-  
+
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
