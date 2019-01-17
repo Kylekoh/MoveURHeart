@@ -266,6 +266,7 @@ html {
   background-color: rgba(0,0,0,1);
   color: #032F5C;
   align-items: center;
+  -ms-flex-pack: center;
   justify-content: center;
   flex-direction: column;
   margin: auto;
