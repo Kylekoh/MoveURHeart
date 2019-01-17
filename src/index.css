@@ -257,18 +257,18 @@ html {
 #main-image {
   display: -ms-flexbox;
   display: flex;
-  flex: 0 1 auto;
-  flex-direction: column;
   background-image: url("./components/image/pastel.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
-  min-height: 650px;  
+  min-height: 650px;
   background-color: rgba(0,0,0,1);
   color: #032F5C;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  margin: auto;
 }
 
 .main-image-title {
