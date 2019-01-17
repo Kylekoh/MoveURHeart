@@ -1,8 +1,3 @@
-html, body {
-  height:100vh; /* fix IE11 */
-  min-height:100%; /* fix IE11 */  
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -260,11 +255,9 @@ html {
   Main Component
 */
 #main-image {
-  display: -webkit-flex;
-  display: -moz-flex;
   display: -ms-flexbox;
-  display: -o-flex;
   display: flex;
+  flex: 0 1 auto;
   flex-direction: column;
   background-image: url("./components/image/pastel.jpg");
   background-position: center;
