@@ -256,6 +256,7 @@ html {
 */
 #main-image {
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   background-image: url("./components/image/pastel.jpg");
   background-position: center;
@@ -263,6 +264,7 @@ html {
   background-attachment: fixed;
   width: 100%;
   min-height: 650px;
+  height: 600px;
   background-color: rgba(0,0,0,1);
   color: #032F5C;
   align-items: center;
