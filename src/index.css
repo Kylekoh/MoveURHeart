@@ -956,11 +956,11 @@ html {
 }
 
 .partner-list {
-  display: -ms-grid;
+  display: -ms-flexbox;
   display: grid;
-  -ms-grid-columns: 5fr 5fr 5fr 5fr;
+  -ms-flex-flow: row wrap;
   grid-template-columns: repeat(4, 5fr);
-  -ms-grid-gap: 1.3rem;
+  width: 80%;
   grid-gap: 1.3rem;
   list-style: none;
   align-items: center;
@@ -1076,8 +1076,7 @@ html {
   -ms-flex-direction: row;
   flex-direction: row;
   width: 80%;
-  
-  
+  height: 400px;
   align-content: center;
   justify-content: space-between;
 }
@@ -1092,6 +1091,8 @@ html {
 }
 
 .contact {
+  display: -ms-flexbox;
+  -ms-flex-flow: row wrap;
   margin: 0;
   padding-left: 0;
   margin-bottom: 0.5rem;
