@@ -1059,6 +1059,7 @@ html {
 .footer-container {
   display: flex;
   width: 100%;
+  height: 400px;
   min-height: 350px;
   background-color: #324c5f;
   font-family: 'Open Sans', sans-serif;
