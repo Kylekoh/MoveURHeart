@@ -959,6 +959,7 @@ html {
   display: -ms-flexbox;
   display: grid;
   -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
   grid-template-columns: repeat(4, 5fr);
   width: 80%;
   grid-gap: 1.3rem;
@@ -1076,7 +1077,8 @@ html {
   -ms-flex-direction: row;
   flex-direction: row;
   width: 80%;
-  height: 400px;
+  
+  
   align-content: center;
   justify-content: space-between;
 }
@@ -1093,6 +1095,7 @@ html {
 .contact {
   display: -ms-flexbox;
   -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
   margin: 0;
   padding-left: 0;
   margin-bottom: 0.5rem;
@@ -1114,7 +1117,9 @@ html {
 }
 
 .contact-sns-wrapper {
-  justify-self: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .contact-sns-wrapper ul {
