@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/adult2.93e55a21.png"
   },
   {
-    "revision": "f43f0b95b767cde74b0f",
-    "url": "/static/css/main.49314748.chunk.css"
+    "revision": "53aca74c5f52d078ee1d",
+    "url": "/static/css/main.44975580.chunk.css"
   },
   {
     "revision": "c9db303edcd18bb418bb",
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/static/media/adult1.0bb070e3.png"
   },
   {
-    "revision": "f43f0b95b767cde74b0f",
-    "url": "/static/js/main.f43f0b95.chunk.js"
+    "revision": "53aca74c5f52d078ee1d",
+    "url": "/static/js/main.53aca74c.chunk.js"
   },
   {
     "revision": "5e7044b0411dd7ad1a49d13e96c00f2e",
@@ -72,12 +72,12 @@ self.__precacheManifest = [
     "url": "/static/media/adult6.785fd4fd.jpeg"
   },
   {
-    "revision": "9a19a137c54fa502046cc3acb3a0ba4b",
-    "url": "/static/media/kakao.9a19a137.png"
-  },
-  {
     "revision": "9f2937409953c790c51d4abbcb7e3efd",
     "url": "/static/media/pastel.9f293740.jpg"
+  },
+  {
+    "revision": "9a19a137c54fa502046cc3acb3a0ba4b",
+    "url": "/static/media/kakao.9a19a137.png"
   },
   {
     "revision": "47854bf8c52f3b1013e1a3682d26d872",
@@ -104,7 +104,7 @@ self.__precacheManifest = [
     "url": "/static/media/main_profile.29b22820.png"
   },
   {
-    "revision": "a862bc022c5f3cbaff6c361a377f1ec5",
+    "revision": "7d0c66b6180556a14e059b9b7ab0cc74",
     "url": "/index.html"
   }
 ];
