@@ -17,8 +17,8 @@ class Footer extends Component {
                     <div className="contact-sns-wrapper">
                         <ul className="contact-sns">
                             <li><a href=""></a></li>
-                            <li><a href="https://www.instagram.com/chesonghaeyo/"><i className="fab fa-instagram"></i></a></li>
-                            <li><a href="https://www.facebook.com/youngseok.bao"><i className="fab fa-facebook-square"></i></a></li>
+                            <li><a href="https://www.instagram.com/salon_de_mm/"><i className="fab fa-instagram"></i></a></li>
+                            <li><a href="https://blog.naver.com/6647show"><i class="fab fa-blogger"></i></a></li>
                             <li><a href="https://twitter.com/youngbao"><i className="fab fa-twitter-square"></i></a></li>
                         </ul>
                         <p>2018 MOVE YOUR HEART. ALL RIGHTS RESERVED.</p>
