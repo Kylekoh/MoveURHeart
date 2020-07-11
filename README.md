@@ -1,44 +1,101 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Move Your Heart
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Move Your Heart](#move-your-heart)
+  - [Table of Contents](#table-of-contents)
+  - [About The Project](#about-the-project)
+    - [Built With](#built-with)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contact](#contact)
 
-### `npm start`
+<br/>
+<br/>
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## About The Project
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+<img src='./src/components/image/logo.png' width="300" height="300"/>
+<br/>
 
-### `npm test`
+**무브유어하트**
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 예술 심리치유센터 무브유어하트의 회사 소개 랜딩페이지입니다.
 
-### `npm run build`
+**기술 스택**
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Media Query를 활용하여 반응형 홈페이지
+- 리액트로 이미지 슬라이딩 기능 구현하였습니다.
+- 스크롤에 따라 헤더 상태가 변화하는 이벤트를 적용하였습니다.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+**사이트 방문하기**
+https://www.moveurheart.com/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br/>
+<br/>
 
-### `npm run eject`
+### Built With
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [React JS](https://ko.reactjs.org/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br/>
+<br/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Getting Started
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+노드 패키지 매니저 설치
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<pre>
+<code>
+npm install npm@latest -g
+</code>
+</pre>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Installation
+
+1. Repo 클론
+
+   <pre>
+   <code>
+   git clone https://github.com/Kylekoh/MoveURHeart.git
+   </code>
+   </pre>
+
+2. NPM 패키지 설치
+
+   <pre>
+   <code>
+   npm install
+   yarn add
+   </code>
+   </pre>
+
+3. 프로젝트 시작
+   <pre>
+   <code>
+   npm start
+   yarn start
+   </code>
+   </pre>
+
+<br/>
+<br/>
+
+## Usage
+
+- 랜딩페이지 전체화면
+  <img src='./src/components/image/MUH_whole.gif'>
+  <br/>
+
+- 랜딩페이지 모바일버전
+  <img src='./src/components/image/MUH_mobile.gif'>
+
+<br/>
+
+## Contact
+
+<ykoh728@gmail.com>
