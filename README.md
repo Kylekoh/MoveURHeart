@@ -88,10 +88,12 @@ npm install npm@latest -g
 ## Usage
 
 - 랜딩페이지 전체화면
+  <br/>
   <img src='./src/components/image/MUH_whole.gif'>
   <br/>
 
 - 랜딩페이지 모바일버전
+  <br/>
   <img src='./src/components/image/MUH_mobile.gif'>
 
 <br/>
